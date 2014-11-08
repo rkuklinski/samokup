@@ -1,7 +1,7 @@
-use SpringSecurity;
+#use SpringSecurity;
+use 15841633_0000002;
 
-
-select * from USERPasswordS;
-select * from USERs;
-select * from Roles;
+select * from USERPASSWORDS;
+select * from USERS;
+select * from ROLES;
 commit;;
