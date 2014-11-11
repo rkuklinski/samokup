@@ -41,7 +41,7 @@
         <beans:property name="dataSource" ref="dataSource" />
         <beans:property name="annotatedClasses">
             <beans:list>
-                <beans:value>com.companyname.kupauto.model.EndUser</beans:value>
+                <beans:value>pl.companyname.samokup.model.EndUser</beans:value>
             </beans:list>
         </beans:property>
         <beans:property name="hibernateProperties">

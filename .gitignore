@@ -41,3 +41,11 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+.metadata/.plugins/org.eclipse.core.resources/.snap
+*.prefs
+.metadata/.plugins/org.eclipse.jdt.launching/.install.xml
+.metadata/*
+
+Servers/*
+RemoteSystemsTempFiles/*
