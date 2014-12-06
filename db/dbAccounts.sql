@@ -1,6 +1,3 @@
-create database if not exists 15841633_0000002;
-#Sample from http://www.journaldev.com/2715/spring-security-in-servlet-web-application-using-dao-jdbc-in-memory-authentication
- 
 use 15841633_0000002;
 
 drop table if exists `USERS`;
