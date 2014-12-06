@@ -60,7 +60,7 @@ public class HomeController {
       return "home";
   }
      
-    @RequestMapping(value = "/emp/get/{id}", method = RequestMethod.GET)
+/*    @RequestMapping(value = "/emp/get/{id}", method = RequestMethod.GET)
     public String getEmployee(Locale locale, Model model,@PathVariable("id") int id) {
         logger.info("Welcome user! Requested Emp ID is: "+id);
         Date date = new Date();
@@ -70,10 +70,10 @@ public class HomeController {
          
         model.addAttribute("serverTime", formattedDate );
         model.addAttribute("id", id);
-        model.addAttribute("name", "Pankaj");
+        model.addAttribute("name", "rkuklinski");
          
         return "employee";
-    }
+    }*/
      
     @RequestMapping(value="/login")
     public String login(HttpServletRequest request, Model model){
@@ -100,7 +100,7 @@ public class HomeController {
     public String createAccount(@ModelAttribute("endUser") EndUser p) {
     	logger.debug("Attempt to create end user");
         this.endUserService.addEndUser(p);
-        return "redirect:/home";
+        return "redirect:/login";
          
     }
      

@@ -25,7 +25,7 @@
         <intercept-url pattern="/emp/**" access="Admin" />
         <form-login login-page="/login" authentication-failure-url="/denied"
             username-parameter="username" password-parameter="password"
-            default-target-url="/home" />
+            default-target-url="/../DocumentManager" />
         <logout invalidate-session="true" logout-success-url="/login"
             logout-url="/j_spring_security_logout" />
         <access-denied-handler error-page="/denied"/>
